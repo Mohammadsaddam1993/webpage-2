@@ -130,3 +130,75 @@ footer{
 }
 a{text-decoration: none;
 color: yellowgreen;}
+
+section main p{
+    padding: 0px;
+}
+
+@media screen and (max-width:649px){
+section aside{
+    width: 100%;
+    background:grey;
+    float: left;}
+
+
+    .headname h1{
+        margin-left:136px;
+        margin-top: 15px;
+        color: #fff;
+        font-size:40px;
+}
+section aside ul li{
+    margin-left: 160px;
+    list-style: none;
+    font-weight: 700;
+    padding: 2px;
+}
+
+section main h1{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: -108px
+}
+section main p{
+    padding: 0px;
+    margin-left:-50px;
+}
+.link{
+    width: 33%;
+    background: #255b38;
+    float: left;
+    padding: 0px;
+    margin-top: 25px;
+    margin-left:-35px;
+}
+.folow{
+    width: 33%;
+    background: #255b38;
+    float: left;
+    margin-top: 25px;
+    margin-left: 55px
+}
+.copy{
+    width: 33%;
+    background: #255b38;
+    float: right;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+
+@media screen and (768px)
+{
+    
+}
+
+@media screen and (992px)
+{
+    
+}
+@media screen and (1200px)
+{
+    
+}
